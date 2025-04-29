@@ -10,7 +10,7 @@ Repository containing all the customizations made on Windows Terminal and Powers
 
 1. Install Windows Terminal
 1. Set inside Defaults the Transparency at 93%
-1. Install [Nerd Fonts]https://github.com/ryanoasis/nerd-fonts fonts and change it in the PowerShell Appereance section.
+1. Install [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) fonts and change it in the PowerShell Appereance section.
 1. Install Oh-My-Posh using the command
 ```	
 	winget install JanDeDobbeleer.OhMyPosh
