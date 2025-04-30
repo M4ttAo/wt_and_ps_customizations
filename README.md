@@ -48,9 +48,4 @@ To let your powershell show a custom icon based on folders or file type, follow 
 1. Restart Powershell, and it should now shows files-directories icons after a dir command
 	![Powershell Icons](./IMAGES/powershell-icons.png)
 
-notepad $PROFILE
-oh-my-posh --init --shell pwsh --config ~/AppData/Local/Programs/oh-my-posh/themes/my-custom-theme.omp.json | Invoke-Expression
-Import-Module -Name Terminal-Icons
-
-
-https://dev.to/ansonh/customize-beautify-your-windows-terminal-2022-edition-541l
+> Not all the file extensions are recognized!
