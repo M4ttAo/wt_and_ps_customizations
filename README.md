@@ -34,6 +34,18 @@ Repository containing all the customizations made on Windows Terminal and Powers
 	![My Custom Theme](./IMAGES/my-custom-theme.png)
 
 ## Powershell
+To let your powershell show a custom icon based on folders or file type, follow these steps:
+
+1. Open powershell and send the command 
+	```Install-Module -Name Terminal-Icons -Repository PSGallery```
+1. Do the command `notepad $PROFILE` and insert inside the file the command
+	```
+	Import-Module -Name Terminal-Icons
+
+	```
+1. Restart Powershell, and it should now shows files-directories icons after a dir command
+	![Powershell Icons](./IMAGES/powershell-icons.png)
+
 notepad $PROFILE
 oh-my-posh --init --shell pwsh --config ~/AppData/Local/Programs/oh-my-posh/themes/my-custom-theme.omp.json | Invoke-Expression
 Import-Module -Name Terminal-Icons
