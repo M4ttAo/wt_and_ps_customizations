@@ -22,8 +22,16 @@ Repository containing all the customizations made on Windows Terminal and Powers
 	```
 1. Restart Windows Terminal one last time!
 1. A this point it should look like this
-![Default Theme](./IMAGES/jandedobbeleer.png)
-
+	![Default Theme](./IMAGES/jandedobbeleer.png)
+1. To change to my customized theme, download and put the ./my-custom-theme.omp.json file into this folder `~/AppData/Local/Programs/oh-my-posh/themes/`
+1. Then reopen Powershell and give this command `notepad $PROFILE`
+1. Change the oh-my-posh command with this new one
+	```
+	oh-my-posh --init --shell pwsh --config ~/AppData/Local/Programs/oh-my-posh/themes/my-custom-theme.omp.json | Invoke-Expression
+	```
+1. Save, and restart Windows Terminal.
+1. Now it should look like this
+ ![My Custom Theme](./IMAGES/my-custom-theme.png)
 
 ## Powershell
 notepad $PROFILE
