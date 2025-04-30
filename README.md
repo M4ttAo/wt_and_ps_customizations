@@ -6,19 +6,20 @@ Repository containing all the customizations made on Windows Terminal and Powers
 + Powershell
 
 ## Windows Terminal
-[!NOTE] Every time you do a step, reload Windows Terminal for changes to take effect
+[!NOTE]
+Every time you do a step, reload Windows Terminal for changes to take effect
 
 1. Install Windows Terminal
 1. Set inside Defaults the Transparency at 93%
 1. Install [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) fonts and change it in the PowerShell Appereance section.
 1. Install Oh-My-Posh using the command
 ```	
-	winget install JanDeDobbeleer.OhMyPosh
+winget install JanDeDobbeleer.OhMyPosh
 ```
 1. Restart Windows Terminal and then run `oh-my-posh` inside the Terminal
 1. Open your PS Profile with `notepad $PROFILE` and insert this code inside it
 ```
-	oh-my-posh --init --shell pwsh --config ~/AppData/Local/Programs/oh-my-posh/themes/jandedobbeleer.omp.json | Invoke-Expression
+oh-my-posh --init --shell pwsh --config ~/AppData/Local/Programs/oh-my-posh/themes/jandedobbeleer.omp.json | Invoke-Expression
 ```
 
 
