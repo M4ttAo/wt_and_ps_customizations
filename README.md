@@ -22,7 +22,7 @@ oh-my-posh --init --shell pwsh --config ~/AppData/Local/Programs/oh-my-posh/them
 ```
 1. Restart Windows Terminal one last time!
 1. A this point it should look like this
-[Default Theme](./IMAGES/jandedobbeleer.png)
+![Default Theme](./IMAGES/jandedobbeleer.png)
 
 
 ## Powershell
