@@ -37,7 +37,9 @@ Repository containing all the customizations made on Windows Terminal and Powers
 To let your powershell show a custom icon based on folders or file type, follow these steps:
 
 1. Open powershell and send the command 
-	```Install-Module -Name Terminal-Icons -Repository PSGallery```
+	```
+	Install-Module -Name Terminal-Icons -Repository PSGallery
+	```
 1. Do the command `notepad $PROFILE` and insert inside the file the command
 	```
 	Import-Module -Name Terminal-Icons
