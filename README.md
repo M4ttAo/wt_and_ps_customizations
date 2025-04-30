@@ -6,8 +6,7 @@ Repository containing all the customizations made on Windows Terminal and Powers
 + Powershell
 
 ## Windows Terminal
-[!NOTE]
-Every time you do a step, reload Windows Terminal for changes to take effect
+> Every time you do a step, reload Windows Terminal for changes to take effect
 
 1. Install Windows Terminal
 1. Set inside Defaults the Transparency at 93%
@@ -21,6 +20,9 @@ winget install JanDeDobbeleer.OhMyPosh
 ```
 oh-my-posh --init --shell pwsh --config ~/AppData/Local/Programs/oh-my-posh/themes/jandedobbeleer.omp.json | Invoke-Expression
 ```
+1. Restart Windows Terminal one last time!
+1. A this point it should look like this
+[Default Theme](./IMAGES/jandedobbeleer.png)
 
 
 ## Powershell
