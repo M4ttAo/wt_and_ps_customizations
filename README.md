@@ -31,7 +31,7 @@ Repository containing all the customizations made on Windows Terminal and Powers
 	```
 1. Save, and restart Windows Terminal.
 1. Now it should look like this
- ![My Custom Theme](./IMAGES/my-custom-theme.png)
+	![My Custom Theme](./IMAGES/my-custom-theme.png)
 
 ## Powershell
 notepad $PROFILE
